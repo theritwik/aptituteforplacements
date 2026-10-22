@@ -1,0 +1,40 @@
+// Ages - Introduction
+// This program demonstrates basic operations on an array of ages.
+// It calculates the average age, as well as finds the minimum and maximum ages.
+
+function main() {
+    // Initialize an array of ages
+    ages = [25, 30, 45, 22, 18, 60]
+    
+    // Variables to store the sum, minimum, and maximum ages
+    sum = 0
+    minAge = ages[0]
+    maxAge = ages[0]
+    
+    // Iterate over each age in the array
+    for age in ages {
+        // Update the sum
+        sum = sum + age
+        
+        // Check for a new minimum age
+        if (age < minAge) {
+            minAge = age
+        }
+        
+        // Check for a new maximum age
+        if (age > maxAge) {
+            maxAge = age
+        }
+    }
+    
+    // Calculate the average age
+    averageAge = sum / length(ages)
+    
+    // Print the results
+    print("Average Age:", averageAge)
+    print("Minimum Age:", minAge)
+    print("Maximum Age:", maxAge)
+}
+
+// Execute the main function
+main()
