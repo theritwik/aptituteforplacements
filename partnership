@@ -1,0 +1,96 @@
+Partnership - Concept & Step-by-Step Approach
+This guide explains the concept of partnership problems typically encountered in quantitative aptitude contexts and provides a structured, step-by-step approach to solving them.
+
+1. Problem Concept
+In partnership problems, different individuals invest money for varying durations. The profit (or loss) is distributed among the partners according to the effective capital they contributed over time. This effective capital is computed as the product of the amount invested (capital) and the time period for which that capital was invested (often called "capital-time" or "money-months").
+
+2. Key Principle
+The fundamental concept is:   Profit Share ∝ (Investment Amount) × (Time Period of Investment)
+
+If a partner changes the investment during the partnership (e.g., additional investment or withdrawal), the investment period should be divided accordingly, and the sum of each product gives the effective investment. The profit is then shared in the ratio of these effective investments.
+
+3. Step-by-Step Approach
+Step 1: Identify Investment Periods
+Determine the total duration of the partnership.
+For each partner, note the time intervals during which the investment remains constant.
+If there is a change in the investment (either increase or decrease), split the timeline accordingly.
+Step 2: Compute Effective Investment for Each Partner
+For every time interval, calculate the product: (Amount Invested) × (Length of the Time Interval).
+Sum these products for each partner to get the total effective investment.
+
+Step 3: Form the Ratio
+Once the effective investment for all partners is computed, write down the ratio.
+Simplify the ratio by dividing each term by the greatest common divisor if necessary.
+Step 4: Apply to Profit Distribution
+The ratio obtained reflects the proportion in which the profit (or loss) should be divided.
+4. Detailed Example
+Suppose three partners A, B, and C enter a partnership for a total duration of 12 months. Their investments are as follows:
+
+Partner A: Invests $10,000 for the first 6 months and then adds $5,000 (making it $15,000) for the remaining 6 months.
+Partner B: Invests $15,000 constantly for 12 months.
+Partner C: Invests $12,000 for the entire duration of 12 months, but withdraws $2,000 after 8 months, resulting in an investment of $10,000 for the last 4 months.
+Step 4.1: Calculate Effective Investment for Each
+
+Partner A:
+
+For first 6 months: Effective investment = 10,000 × 6 = 60,000
+For next 6 months: Effective investment = 15,000 × 6 = 90,000
+Total for A = 60,000 + 90,000 = 150,000
+Partner B:
+
+For 12 months: Effective investment = 15,000 × 12 = 180,000
+Partner C:
+
+For the first 8 months: Effective investment = 12,000 × 8 = 96,000
+For the last 4 months: Effective investment = 10,000 × 4 = 40,000
+Total for C = 96,000 + 40,000 = 136,000
+Step 4.2: Form the Ratio
+
+The profit sharing ratio is:
+A : B : C = 150,000 : 180,000 : 136,000
+
+To simplify, divide each term by a common factor (e.g., 2,000):
+A = 150,000 ÷ 2,000 = 75
+B = 180,000 ÷ 2,000 = 90
+C = 136,000 ÷ 2,000 = 68
+
+Thus, the simplified ratio is:
+A : B : C = 75 : 90 : 68
+
+5. Visualizing the Calculation (Tabular Format)
+Partner	Time Period(s)	Investment Amount	Calculation	Total Effective Investment
+A	0–6 months	10,000	10,000 × 6 = 60,000	60,000
+6–12 months	15,000	15,000 × 6 = 90,000	90,000
+Total			150,000
+B	0–12 months	15,000	15,000 × 12 = 180,000	180,000
+C	0–8 months	12,000	12,000 × 8 = 96,000	96,000
+8–12 months	10,000	10,000 × 4 = 40,000	40,000
+Total			136,000
+6. Common Mistakes & Pitfalls
+Ignoring Change in Investment:
+Failing to break the timeline based on when investment changes occur results in calculating an inaccurate effective investment.
+
+Incorrect Time Period Calculation:
+Miscounting the number of months (or years) for each segment leads to miscalculation of the product.
+
+Forgetting to Simplify the Ratio:
+Leaving the ratio unsimplified can appear messy and may lead to further errors in profit sharing.
+
+Assuming Equal Time Periods:
+Not checking if all partners remained invested for the entire duration can lead to an erroneous division of profits.
+
+Arithmetic Errors:
+Basic multiplication or addition mistakes can compound, especially when multiple time segments are involved.
+
+7. Interview and Examination Tips
+Clarify the Duration: Always confirm the total length of the partnership and check if any partner's investment changes during this period.
+Break the Problem into Segments: Divide the investment period whenever there's a change in the investment, then compute each segment separately.
+Show Your Work: Write down every step during an interview. This demonstrates clarity in your thought process and ensures you avoid arithmetic errors.
+Ask Follow-Up Questions: In an interview, ask whether there might be additional components (such as interest on capital or extra withdrawals) to gauge any hidden complexities.
+8. Real-World Applications
+Understanding partnership calculations is essential not only for academic tests but in real-world scenarios such as:
+
+Business partnerships and joint ventures.
+Investment groups sharing profits.
+Budget allocation based on participation duration.
+By mastering this concept, one is better equipped to handle any scenario where time-weighted investment is a factor.
