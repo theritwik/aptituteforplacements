@@ -1,0 +1,85 @@
+Below is an in-depth explanation of the concepts of True Discount and Banker's Discount, along with a step-by-step approach to understanding and solving related problems.
+
+In many quantitative aptitude problems, two discount measures are frequently discussed:
+
+Banker's Discount (BD): The discount computed on the face (or nominal) value, calculated using simple interest principles.
+True Discount (TD): The actual loss in value when the due amount is paid before its maturity; it is the difference between the face value and its present value.
+Understanding the distinction between these two is crucial in finance, particularly in problems involving interest and time value of money.
+
+Definitions & Key Concepts
+1. Banker's Discount (BD)
+Definition: Banker's Discount is the simple interest on the face value for the period until it is due.
+Formula:
+If F is the face value, r is the rate of interest (in percentages), and t is the time (in years), then:
+BD = (F × r × t) / 100
+Highlights:
+It is computed directly on the face value (F).
+Commonly used by banks when discounting bills of exchange or promissory notes.
+2. True Discount (TD)
+Definition: True Discount is the difference between the face value and the present value (the amount that, if invested at the given rate, will grow to the face value by the due date).
+Formula:
+The present value (P) is given by:
+P = F / (1 + (r × t) / 100)
+Hence, TD = F − P
+Highlights:
+It represents the actual reduction in the payable amount if paid immediately.
+Always, TD < BD, because BD calculates interest on the full face value while TD adjusts for the present value.
+Step-by-Step Approach
+Step 1: Identify the Given Values
+Determine the face value (F).
+Identify the rate of interest (r) (expressed in percentage).
+Identify the time period (t) (in years or part of a year as required).
+Step 2: Calculate Banker's Discount (BD)
+Use the formula:
+  BD = (F × r × t) / 100
+Example: If F = 1000, r = 10% per annum, and t = 1 year, then:
+  BD = (1000 × 10 × 1) / 100 = 100
+
+Step 3: Determine the Present Value (P)
+Since the present value is the current worth of the face value when discounted at the given rate:
+  P = F / (1 + (r × t) / 100)
+Example: Using the same values:
+  P = 1000 / (1 + (10 × 1)/100) = 1000 / 1.1 ≈ 909.09
+
+Step 4: Calculate True Discount (TD)
+Now, compute TD as the difference between the face value and its present value:
+  TD = F − P
+Continuing our example:
+  TD = 1000 − 909.09 ≈ 90.91
+
+Step 5: Analyze and Compare
+Observation:
+In our example, BD = 100 while TD ≈ 90.91.
+Insight:
+Since TD = BD / (1 + (r × t) / 100), it will always be slightly lower than BD.
+Conclusion:
+The banker's discount does not reflect the actual cost to the customer when paying early, whereas the true discount gives a more realistic idea of the saving due to early payment.
+Real-World Application
+Banking & Finance:
+When endorsing or discounting bills, banks use these calculations to determine the amount the holder will receive.
+Business Transactions:
+Companies might use true discount to decide on immediate payments versus delayed payments.
+Investment Decisions:
+Investors use these measures to calculate the opportunity cost and present value of expected future cash flows.
+Key Takeaways
+Banker's Discount is the interest on the face value for the future period.
+True Discount represents the actual reduction in the payable amount when paying immediately (the difference between the face value and its present value).
+The methods highlight the importance of time-value concepts in financial mathematics.
+Practical Example Recap
+For a bill with:
+
+Face value (F) = 1000
+Rate of Interest (r) = 10% per annum
+Time (t) = 1 year
+Banker's Discount:
+BD = (1000 × 10 × 1) / 100 = 100
+
+Present Value:
+P = 1000 / 1.1 ≈ 909.09
+
+True Discount:
+TD = 1000 – 909.09 ≈ 90.91
+
+This step-by-step breakdown shows how to apply these formulas in quantitative aptitude problems.
+
+With this structured explanation and example, you should now have a clear understanding of calculating both Banker's Discount and True Discount, as well as the conceptual differences between them.
