@@ -1,0 +1,96 @@
+The Chain Rule is a fundamental concept in calculus used to differentiate composite functions. When you have a function that is made up of two or more functions, the Chain Rule provides a systematic way to find the derivative of the composite function.
+
+What Is the Chain Rule?
+The Chain Rule states that if you have a composite function y = f(g(x)), then the derivative of y with respect to x is given by:
+
+  dy/dx = f′(g(x)) · g′(x)
+
+In words, you:
+
+Differentiate the outer function f with respect to its argument (g(x)).
+Multiply the result by the derivative of the inner function g with respect to x.
+Step-by-Step Approach
+1. Identify the Outer and Inner Functions
+Inner Function (g(x)): This is the function inside another function.
+Outer Function (f(u)): This is the function that takes the inner function as its input (here, u = g(x)).
+Example:
+For y = sin(x²),
+
+Inner function: g(x) = x²
+Outer function: f(u) = sin(u)
+2. Differentiate the Outer Function
+Compute the derivative f′(u) of the outer function, keeping the inner function u intact.
+Example:
+If f(u) = sin(u), then f′(u) = cos(u).
+
+3. Differentiate the Inner Function
+Find the derivative g′(x) of the inner function with respect to x.
+Example:
+If g(x) = x², then g′(x) = 2x.
+
+4. Multiply the Derivatives
+Multiply the derivative of the outer function (evaluated at the inner function) by the derivative of the inner function.
+Example:
+Combine the results:
+For y = sin(x²),
+  dy/dx = cos(x²) · 2x = 2x · cos(x²).
+
+Detailed Example
+Consider a composite function:
+  y = ln(3x + 5)
+
+Identify Components:
+
+Inner function: g(x) = 3x + 5
+Outer function: f(u) = ln(u)
+Differentiate Outer Function:
+
+f′(u) = 1/u
+Differentiate Inner Function:
+
+g′(x) = 3
+Apply Chain Rule:
+
+dy/dx = f′(g(x)) · g′(x) = (1/(3x + 5)) · 3 = 3/(3x + 5)
+Visual Representation
+Consider the function layering:   x → g(x) → f(g(x))
+
+You first feed x into g, then the output of g is fed into f.
+The rate of change dy/dx is the product of the rate at which f changes with its input and the rate at which g changes with x.
+           f'(g(x))
+    [f: outer]   ●-----------------
+                  |                ∙
+                  |  composite     ∙  
+x --------> g(x)  | function     x  ∙ ---> dy/dx = f'(g(x)) * g'(x)
+                  |                ∙
+    [g: inner] ->●-----------------
+               g'(x)
+🚫 Common Pitfalls
+Not Identifying Functions Correctly:
+Ensure that you correctly separate the inner and outer functions before differentiating.
+
+Forgetting to Multiply by g′(x):
+After differentiating the outer function, it is crucial to multiply by the derivative of the inner function.
+
+Misapplying the Rule on Nested Functions:
+For functions with more than one level of nesting (e.g., f(g(h(x)))), apply the Chain Rule consecutively for each layer.
+
+Real-World Applications
+Physics: Modeling situations where one variable depends on another (e.g., position, velocity, and time).
+Economics: Differentiating composite functions representing cost, demand, or revenue models.
+Biology: Describing rates of change in biological systems, such as enzyme kinetics or population dynamics.
+⏱️ Practice Problems
+Differentiate y = √(5x + 2)
+Hint: Write the square root as a power, then apply the Chain Rule.
+
+Find the derivative of y = e^(−3x)
+Hint: Identify the inner function and use the Chain Rule on the exponential function.
+
+Compute dy/dx for y = cos(2x + 1)
+Hint: Recognize the cosine function is the outer function, and the linear function is the inner function.
+
+Summary
+Chain Rule Concept: Differentiates composite functions by taking the derivative of the outer function and multiplying it by the derivative of the inner function.
+Steps: Identify inner/outer functions, differentiate each, and multiply.
+Applications: Found in many fields including physics, economics, and biology.
+This step-by-step approach ensures that you correctly apply the Chain Rule in any scenario where composite functions arise. Happy differentiating!
